@@ -1,0 +1,40 @@
+/* ====== BEM ====== */
+.tarjeta {
+  margin-bottom: 30px; 
+}
+
+.tarjeta__card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.tarjeta__card:hover {
+  transform: translateY(-5px);
+}
+
+.boton {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton--prim {
+  background-color: #007bff;
+}
+
+.boton--prim:hover {
+  background-color: #003268;
+}
+
+.boton--sec {
+  background-color: #19bfb1;
+}  
+
+.boton--sec:hover {
+  background-color: #5a6268;
+}
