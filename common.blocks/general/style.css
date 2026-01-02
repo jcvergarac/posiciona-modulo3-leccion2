@@ -14,15 +14,6 @@
   transform: translateY(-5px);
 }
 
-.boton {
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
 .boton--prim {
   background-color: #007bff;
 }
@@ -38,3 +29,15 @@
 .boton--sec:hover {
   background-color: #5a6268;
 }
+
+/* ====== OOCSS ====== */
+.boton {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
